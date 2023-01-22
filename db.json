@@ -1,0 +1,52 @@
+{
+  "integrantes": [
+    {
+      "id": 1,
+      "name": "Nigell Jama",
+      "age": 20,
+      "phone_number": "+593 99 229 7549"
+    },
+    {
+      "id": 2,
+      "name": "Ricardo Barrett",
+      "age": 21,
+      "phone_number": "+593 98 041 7475"
+    },
+    {
+      "id": 3,
+      "name": "Jefferson Garcia (sí, sin tilde)",
+      "age": 13,
+      "phone_number": "+593 98 267 8103"
+    },
+    {
+      "id": 4,
+      "name": "Jhon Meza",
+      "age": 20,
+      "phone_number": "+593 98 992 2139"
+    },
+    {
+      "id": 5,
+      "name": "Ricardo Vaca",
+      "age": 20,
+      "phone_number": "+593990524060"
+    },
+    {
+      "id": 6,
+      "name": "Andrea Delgado",
+      "age": 5,
+      "phone_number": "+593 98 723 9003"
+    },
+    {
+      "id": 7,
+      "name": "Keyla (así dice en WhatsApp)",
+      "age": 20,
+      "phone_number": "+593 98 723 9003"
+    },
+    {
+      "id": 8,
+      "name": "Rafael Vaca",
+      "age": 19,
+      "phone_number": "+593 96 935 1646"
+    }
+  ]
+}

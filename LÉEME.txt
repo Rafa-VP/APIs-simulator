@@ -1,0 +1,27 @@
+PARA EMPEZAR EL PROYECTO:
+- Tener instalado NodeJS, la versión LTS --> https://nodejs.org/es/
+- Luego de abrir nuestro proyecto, abrimos una consola en el mismo directorio donde se encuentran 
+  todos los archivos
+- Escribimos el siguiente comando: 
+    - npm install --> se nos debe instalar el paquete de json-server, pueden verificarlo
+                      en el apartadode "dependencies" en el package.json
+
+PARA EJECUTAR NUESTRA API:
+- Luego para ejecutar nuestra "Base de datos", se pueden fijar que en el archivo package.json hay 
+  un apartado para "scripts", donde está el script "server"
+- En la consola ejecutamos ese script mediante el siguiente comando:
+    - npm run server
+- Ya tendríamos en ejecución nuestra API
+
+PARA EJECUTAR NUESTRO CÓDIGO:
+- En otra consola, ejecutamos el siguiente comando
+    - node --watch index.js
+- El parámetro --watch nos permite que el código se compile cada que hagamos un cambio,
+  esta función es nueva, recién vino con NodeJS v18
+- Ignoren el "ExperimentalWarning" si les sale, lo que importa es la respuesta
+
+NOTA: 
+- UNA API ES UNA APLICACIÓN DESARROLLADA PARA CONSULTAS DE UNA BASE DE DATOS
+  COMO POR EJEMPLO: GET, POST, PUT, DELETE
+  EN EL ARCHIVO db.json TENEMOS UNA BASE DE DATOS "IMAGINARIA" PORQUE SIMPLEMENTE
+  ES UN ARCHIVO JSON, NO UNA BDD SQL O NoSQL.
